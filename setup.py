@@ -26,6 +26,7 @@ setup(
     url='',
     license='',
     packages=find_namespace_packages(),
+    namespace_packages=['tethysapp', 'tethysapp.rheasvieweroption2'],
     include_package_data=True,
     package_data={'': resource_files},
     zip_safe=False,
